@@ -157,7 +157,7 @@ export default function Skills() {
             dataAos="fade-up"
             dataAosDelay="500"
             level="Advanced"
-            category="Backend"
+            category="Frontend"
           />
           <SkillCard
             title="Next.js"
