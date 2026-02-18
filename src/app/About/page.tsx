@@ -48,7 +48,7 @@ const About = () => {
               <div className="space-y-4 sm:space-y-6">
                 <div>
                   <h2 className="text-2xl sm:text-3xl font-serif font-bold text-slate-800 mb-3 sm:mb-4">
-                    Frontend Developer & AI Enthusiast
+                    Frontend and Mern Developer & AI Enthusiast
                   </h2>
                   <p className="text-base sm:text-lg leading-relaxed text-slate-600">
                     I am an experienced frontend developer, currently expanding my expertise by learning Next.js for both backend and frontend development. My journey in tech was significantly shaped by completing a TypeScript course at the Governor Sindh IT Initiative (GIAIC).
@@ -59,7 +59,7 @@ const About = () => {
                 <div className="flex flex-wrap gap-3 sm:gap-4 justify-center md:justify-start">
                   <div className="flex items-center space-x-2 px-3 sm:px-4 py-2 bg-slate-100 text-slate-700 rounded-full text-sm font-medium">
                     <FaAward className="text-slate-500" />
-                    <span>GIAIC Certified</span>
+                    <span>GIAIC and PIAIC Certified</span>
                   </div>
                   <div className="flex items-center space-x-2 px-3 sm:px-4 py-2 bg-slate-100 text-slate-700 rounded-full text-sm font-medium">
                     <FaStar className="text-slate-500" />
@@ -67,13 +67,13 @@ const About = () => {
                   </div>
                   <div className="flex items-center space-x-2 px-3 sm:px-4 py-2 bg-slate-100 text-slate-700 rounded-full text-sm font-medium">
                     <FaCheckCircle className="text-slate-500" />
-                    <span>ADC PAT 2</span>
+                    <span>Masters in Education</span>
                   </div>
                 </div>
 
                 {/* Skills Tags */}
                 <div className="flex flex-wrap gap-3 sm:gap-4 justify-center md:justify-start">
-                  <span className="px-3 sm:px-4 py-2 bg-slate-100 text-slate-700 rounded-full text-sm font-medium">Frontend Development</span>
+                  <span className="px-3 sm:px-4 py-2 bg-slate-100 text-slate-700 rounded-full text-sm font-medium">Frontend and Mern Development</span>
                   <span className="px-3 sm:px-4 py-2 bg-slate-100 text-slate-700 rounded-full text-sm font-medium">Next.js</span>
                   <span className="px-3 sm:px-4 py-2 bg-slate-100 text-slate-700 rounded-full text-sm font-medium">AI Engineering</span>
                 </div>

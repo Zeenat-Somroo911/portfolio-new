@@ -27,7 +27,7 @@ const Home = () => {
                 </h1>
                 <div className="flex items-center justify-center md:justify-start space-x-2 sm:space-x-3 text-slate-600">
                   <span className="h-1 w-8 sm:w-12 bg-slate-400"></span>
-                  <span className="text-base sm:text-lg font-medium">Full Stack Developer</span>
+                  <span className="text-base sm:text-lg font-medium">Full Stack Developer and Mern Stack Developer</span>
                   <span className="px-2 sm:px-3 py-1 bg-slate-100 rounded-full text-xs sm:text-sm">Masters in education</span>
                 </div>
               </div>
