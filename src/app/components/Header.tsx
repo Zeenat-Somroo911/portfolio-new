@@ -3,27 +3,21 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import me from "../my1.jpg";
+import me from "../my1.jpg"; // ensure ye path sahi hai
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10);
-    };
+    const handleScroll = () => setIsScrolled(window.scrollY > 10);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
-    if (!isMobileMenuOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'unset';
-    }
+    document.body.style.overflow = !isMobileMenuOpen ? 'hidden' : 'unset';
   };
 
   const closeMobileMenu = () => {
@@ -31,7 +25,7 @@ export default function Header() {
     document.body.style.overflow = 'unset';
   };
 
-  const navItems = ["Home", "About", "Skills",  "Services", "Contact"];
+  const navItems = ["Home", "About", "Skills", "Services", "Contact"];
 
   return (
     <header 
@@ -63,14 +57,14 @@ export default function Header() {
             </div>
             <h1 className="text-xl sm:text-2xl font-serif font-bold">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-200 to-white group-hover:from-slate-200 group-hover:to-white transition-all duration-300">
-                Portfolio
+                Zeenat Somroo
               </span>
             </h1>
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-1 lg:space-x-2">
-            {navItems.map((item) => (
+            {navItems.map(item => (
               <Link 
                 key={item} 
                 href={`/${item}`} 
@@ -89,33 +83,15 @@ export default function Header() {
             aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
           >
             <div className="relative w-6 h-6">
-              <span 
-                className={`absolute block h-0.5 w-6 bg-current transform transition duration-300 ease-in-out ${
-                  isMobileMenuOpen ? 'rotate-45 translate-y-2.5' : '-translate-y-1.5'
-                }`}
-              />
-              <span 
-                className={`absolute block h-0.5 w-6 bg-current transform transition duration-300 ease-in-out ${
-                  isMobileMenuOpen ? 'opacity-0' : 'opacity-100'
-                }`}
-              />
-              <span 
-                className={`absolute block h-0.5 w-6 bg-current transform transition duration-300 ease-in-out ${
-                  isMobileMenuOpen ? '-rotate-45 translate-y-2.5' : 'translate-y-1.5'
-                }`}
-              />
+              <span className={`absolute block h-0.5 w-6 bg-current transform transition duration-300 ease-in-out ${isMobileMenuOpen ? 'rotate-45 translate-y-2.5' : '-translate-y-1.5'}`} />
+              <span className={`absolute block h-0.5 w-6 bg-current transform transition duration-300 ease-in-out ${isMobileMenuOpen ? 'opacity-0' : 'opacity-100'}`} />
+              <span className={`absolute block h-0.5 w-6 bg-current transform transition duration-300 ease-in-out ${isMobileMenuOpen ? '-rotate-45 translate-y-2.5' : 'translate-y-1.5'}`} />
             </div>
           </button>
         </div>
 
         {/* Mobile Navigation */}
-        <div 
-          className={`md:hidden fixed inset-0 bg-slate-900/95 backdrop-blur-md transition-all duration-300 ease-in-out ${
-            isMobileMenuOpen 
-              ? 'opacity-100 visible translate-y-0' 
-              : 'opacity-0 invisible -translate-y-4'
-          }`}
-        >
+        <div className={`md:hidden fixed inset-0 bg-slate-900/95 backdrop-blur-md transition-all duration-300 ease-in-out ${isMobileMenuOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-4'}`}>
           <div className="flex flex-col items-center justify-center h-full space-y-8">
             {navItems.map((item, index) => (
               <Link 
@@ -137,4 +113,4 @@ export default function Header() {
       </div>
     </header>
   );
-} 
+}
