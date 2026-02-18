@@ -91,7 +91,7 @@ const About = () => {
                 <h3 className="text-lg sm:text-xl font-semibold text-slate-800">Technical Expertise</h3>
               </div>
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                It was here that I also embarked on learning Cloud Applied Generative AI Engineering with cutting-edge technologies. As a senior student at GIAIC, I take pride in assisting my peers in their learning journeys.
+                It was here that I also embarked on learning Cloud Applied Generative AI Engineering with cutting-edge technologies. As a  student at GIAIC, I take pride in assisting my peers in their learning journeys.
               </p>
             </div>
 
@@ -103,7 +103,7 @@ const About = () => {
                 <h3 className="text-lg sm:text-xl font-semibold text-slate-800">Education</h3>
               </div>
               <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                Additionally, I am pursuing an Associate Degree Of Commerce (ADC PART 2), combining my technical expertise with business acumen to create comprehensive solutions.
+                Additionally, I am pursuing an BS 3rd Year Education (Masters), combining my technical expertise with education acumen to create comprehensive solutions.
               </p>
             </div>
           </div>

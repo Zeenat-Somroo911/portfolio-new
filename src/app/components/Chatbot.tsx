@@ -64,7 +64,7 @@ export default function Chatbot() {
           <div className="bg-gradient-to-r from-slate-800 to-slate-700 p-3 sm:p-4 flex justify-between items-center">
             <h2 className="text-white font-semibold flex items-center gap-2 text-sm sm:text-base">
               <MessageSquare className="w-4 h-4 sm:w-5 sm:h-5" />
-              Khanzadi Assistant
+              Zeenat Assistant
             </h2>
             <button
               onClick={() => setIsOpen(false)}
@@ -78,7 +78,7 @@ export default function Chatbot() {
             {messages.length === 0 && (
               <div className="text-center text-slate-700 my-6 sm:my-8">
                 <MessageSquare className="w-10 h-10 sm:w-12 sm:h-12 mx-auto mb-3 sm:mb-4 text-slate-600" />
-                <p className="text-xs sm:text-sm">Ask me about Khanzadi skills, projects, or experience!</p>
+                <p className="text-xs sm:text-sm">Ask me about Zeenat skills, projects, or experience!</p>
               </div>
             )}
             {messages.map((msg, i) => (

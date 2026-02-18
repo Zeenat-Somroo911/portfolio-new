@@ -23,12 +23,12 @@ const Home = () => {
                   <div className="w-16 sm:w-20 h-1 bg-slate-400 mt-2"></div>
                 </div>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-slate-800">
-                  <span className="block mb-2 text-slate-600">Hello, I am Khanzadi Wazir Ali</span>
+                  <span className="block mb-2 text-slate-600">Hello, I am Zeenat Somroo</span>
                 </h1>
                 <div className="flex items-center justify-center md:justify-start space-x-2 sm:space-x-3 text-slate-600">
                   <span className="h-1 w-8 sm:w-12 bg-slate-400"></span>
                   <span className="text-base sm:text-lg font-medium">Full Stack Developer</span>
-                  <span className="px-2 sm:px-3 py-1 bg-slate-100 rounded-full text-xs sm:text-sm">ADC PAT 2</span>
+                  <span className="px-2 sm:px-3 py-1 bg-slate-100 rounded-full text-xs sm:text-sm">Masters in education</span>
                 </div>
               </div>
               
@@ -38,12 +38,12 @@ const Home = () => {
                    data-aos="fade-up" 
                    data-aos-easing="ease-out-cubic"
                    data-aos-duration="1500">
-                  I am a web developer and ADC PAT 2 student focused on technology through cloud-applied generative AI engineering. My journey is about mastering the latest AI tools to enhance web development and drive business innovation.
+                  I am a web developer and Education student focused on technology through cloud-applied generative AI engineering. My journey is about mastering the latest AI tools to enhance web development and drive business innovation.
                 </p>
                 <div className="flex items-center space-x-3 sm:space-x-4 text-xs sm:text-sm text-slate-500">
                   <div className="flex items-center">
                     <FaAward className="mr-1.5 sm:mr-2" />
-                    <span>GIAIC Certified</span>
+                    <span>GIAIC and PIAIC Certified</span>
                   </div>
                   <div className="flex items-center">
                     <FaCode className="mr-1.5 sm:mr-2" />
@@ -98,7 +98,7 @@ const Home = () => {
                 {/* Social Links */}
                 <div className="flex justify-center md:justify-start space-x-4 sm:space-x-6 pt-3 sm:pt-4">
                   <Link 
-                    href="https://github.com/khanzadigithubid/"
+                    href="https://github.com/Zeenat-Somroo911"
                     className="group"
                     aria-label="GitHub Profile"
                   >
@@ -107,7 +107,7 @@ const Home = () => {
                     </button>
                   </Link>
                   <Link 
-                    href="https://www.linkedin.com/in/khanzadi-wazir-ali-7a97832b6/"
+                    href="https://www.linkedin.com/in/zeenat-somroo/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BFQnSkvmqRHubsrLzSiK6%2Fw%3D%3D"
                     className="group"
                     aria-label="LinkedIn Profile"
                   >

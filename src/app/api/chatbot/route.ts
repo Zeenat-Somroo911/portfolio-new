@@ -1,10 +1,10 @@
 import { NextResponse } from 'next/server';
 
 const faq: Record<string, string> = {
-  "who is khanzadi": `<div class="text-sm sm:text-base">👋 Khanzadi Wazir Ali is a Full Stack Developer and AI enthusiast from Pakistan. She combines technical expertise with academic excellence, currently pursuing an Associate Degree of Commerce while being certified by GIAIC in Cloud Applied AI & Web 3.0 Metaverse. Her passion lies in creating innovative web solutions and exploring cutting-edge AI technologies.</div>`,
+  "who is Zeenat ": `<div class="text-sm sm:text-base">👋 Zeenat Somroo is a Full Stack Developer and AI enthusiast from Pakistan. She combines technical expertise with academic excellence, currently pursuing an Education degree while being certified by GIAIC and PIAIC in Cloud Applied AI & Web 3.0 Metaverse. Her passion lies in creating innovative web solutions and exploring cutting-edge AI technologies.</div>`,
   
   "skills": `<div class="space-y-2">
-    <p class="text-sm sm:text-base">💻 Khanzadi's technical expertise spans across multiple domains:</p>
+    <p class="text-sm sm:text-base">💻 zeenat's technical expertise spans across multiple domains:</p>
     <div class="pl-4 space-y-1">
       <p class="text-sm sm:text-base font-medium">Frontend Development:</p>
       <ul class="list-disc pl-4 text-sm sm:text-base">
@@ -30,9 +30,9 @@ const faq: Record<string, string> = {
   </div>`,
   
   "projects": `<div class="space-y-2">
-    <p class="text-sm sm:text-base">🚀 Khanzadi has developed several impactful projects:</p>
+    <p class="text-sm sm:text-base">🚀 zeenat has developed several impactful projects:</p>
     <div class="pl-4 space-y-2">
-      <div>
+   ss   <div>
         <p class="text-sm sm:text-base font-medium">Crypto Website:</p>
         <ul class="list-disc pl-4 text-sm sm:text-base">
           <li>Modern cryptocurrency platform</li>
@@ -73,15 +73,15 @@ const faq: Record<string, string> = {
         </ul>
       </div>
     </div>
-    <p class="text-sm sm:text-base mt-2">View more projects on <a href='https://github.com/khanzadiwazirali' target='_blank' rel='noopener noreferrer' class='text-blue-600 hover:underline'>GitHub</a></p>
+    <p class="text-sm sm:text-base mt-2">View more projects on <a href='https://github.com/Zeenat-Somroo911' target='_blank' rel='noopener noreferrer' class='text-blue-600 hover:underline'>GitHub</a></p>
   </div>`,
   
   "contact": `<div class="space-y-2">
-    <p class="text-sm sm:text-base">📬 Connect with Khanzadi through multiple channels:</p>
+    <p class="text-sm sm:text-base">📬 Connect with Zeenat through multiple channels:</p>
     <div class="pl-4 space-y-2">
       <div>
         <p class="text-sm sm:text-base font-medium">Professional Email:</p>
-        <a href='mailto:khanzadiwazirali9@gmail.com' class='text-blue-600 hover:underline text-sm sm:text-base block'>khanzadiwazirali9@gmail.com</a>
+        <a href='mailto:zeenatsomroo29@gmail.com' class='text-blue-600 hover:underline text-sm sm:text-base block'>khanzadiwazirali9@gmail.com</a>
       </div>
       <div>
         <p class="text-sm sm:text-base font-medium">Portfolio Website:</p>
@@ -96,7 +96,7 @@ const faq: Record<string, string> = {
   </div>`,
   
   "certifications": `<div class="space-y-2">
-    <p class="text-sm sm:text-base">🏆 Khanzadi holds prestigious certifications that validate her expertise:</p>
+    <p class="text-sm sm:text-base">🏆 Zeenat holds prestigious certifications that validate her expertise:</p>
     <div class="pl-4 space-y-2">
       <div>
         <p class="text-sm sm:text-base font-medium">GIAIC Certified Developer:</p>
@@ -110,9 +110,9 @@ const faq: Record<string, string> = {
   </div>`,
   
   "github": `<div class="space-y-2">
-    <p class="text-sm sm:text-base">💻 Explore Khanzadi's technical work on GitHub:</p>
+    <p class="text-sm sm:text-base">💻 Explore Zeenat's's technical work on GitHub:</p>
     <div class="pl-4 space-y-2">
-      <a href='https://github.com/khanzadiwazirali' target='_blank' rel='noopener noreferrer' class='text-blue-600 hover:underline text-sm sm:text-base block'>github.com/khanzadiwazirali</a>
+      <a href='https://github.com/Zeenat-Somroo911' target='_blank' rel='noopener noreferrer' class='text-blue-600 hover:underline text-sm sm:text-base block'>github.com/Zeenat-Somroo911</a>
       <ul class="list-disc pl-4 text-sm sm:text-base">
         <li>Open-source contributions</li>
         <li>Project repositories</li>
@@ -124,9 +124,9 @@ const faq: Record<string, string> = {
   </div>`,
   
   "linkedin": `<div class="space-y-2">
-    <p class="text-sm sm:text-base">🔗 Connect with Khanzadi on LinkedIn:</p>
+    <p class="text-sm sm:text-base">🔗 Connect with Zeenat on LinkedIn:</p>
     <div class="pl-4 space-y-2">
-      <a href='https://linkedin.com/in/khanzadiwazirali' target='_blank' rel='noopener noreferrer' class='text-blue-600 hover:underline text-sm sm:text-base block'>linkedin.com/in/khanzadiwazirali</a>
+      <a href='https://www.linkedin.com/in/zeenat-somroo/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B62NkQxj0TUKHOQ9lIuIKmA%3D%3D' target='_blank' rel='noopener noreferrer' class='text-blue-600 hover:underline text-sm sm:text-base block'>linkedin.com/in/khanzadiwazirali</a>
       <ul class="list-disc pl-4 text-sm sm:text-base">
         <li>Professional experience</li>
         <li>Skills endorsements</li>
@@ -138,7 +138,7 @@ const faq: Record<string, string> = {
   </div>`,
   
   "hello": `<div class="space-y-2">
-    <p class="text-sm sm:text-base">👋 Hello! I'm Khanzadi's AI assistant. I can help you learn more about:</p>
+    <p class="text-sm sm:text-base">👋 Hello! I'm Zeenat's AI assistant. I can help you learn more about:</p>
     <ul class="list-disc pl-4 text-sm sm:text-base">
       <li>Professional background and expertise</li>
       <li>Technical skills and certifications</li>
@@ -162,7 +162,7 @@ const faq: Record<string, string> = {
   </div>`,
   
   "experience": `<div class="space-y-2">
-    <p class="text-sm sm:text-base">💼 Khanzadi's professional experience includes:</p>
+    <p class="text-sm sm:text-base">💼 Zeenat's professional experience includes:</p>
     <div class="pl-4 space-y-2">
       <div>
         <p class="text-sm sm:text-base font-medium">Full Stack Development:</p>
@@ -193,19 +193,19 @@ const faq: Record<string, string> = {
   </div>`,
   
   "education": `<div class="space-y-2">
-    <p class="text-sm sm:text-base">🎓 Khanzadi's educational background:</p>
+    <p class="text-sm sm:text-base">🎓 Zeenat's educational background:</p>
     <div class="pl-4 space-y-2">
       <div>
         <p class="text-sm sm:text-base font-medium">Current Studies:</p>
         <ul class="list-disc pl-4 text-sm sm:text-base">
-          <li>Associate Degree of Commerce</li>
-          <li>Focus on business and technology integration</li>
+          <li>Masters in Education</li>
+          <li>Focus on Education and technology integration</li>
         </ul>
       </div>
       <div>
         <p class="text-sm sm:text-base font-medium">Professional Certifications:</p>
         <ul class="list-disc pl-4 text-sm sm:text-base">
-          <li>GIAIC Certified Developer</li>
+          <li>GIAIC and PIAIC Certified Developer</li>
           <li>Cloud Applied AI</li>
           <li>Web 3.0 Metaverse</li>
         </ul>
@@ -238,7 +238,7 @@ export async function POST(request: Request) {
       reply: `<div class="space-y-2">
         <p class="text-sm sm:text-base">🤔 I'm not sure about that. You can ask me about:</p>
         <ul class="list-disc pl-4 text-sm sm:text-base">
-          <li>Khanzadi's professional background</li>
+          <li>Zeenat's professional background</li>
           <li>Technical skills and expertise</li>
           <li>Project portfolio</li>
           <li>Contact information</li>

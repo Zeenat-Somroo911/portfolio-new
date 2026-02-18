@@ -31,7 +31,7 @@ export default function Header() {
     document.body.style.overflow = 'unset';
   };
 
-  const navItems = ["Home", "About", "Skills", "Projects", "Services", "Contact"];
+  const navItems = ["Home", "About", "Skills",  "Services", "Contact"];
 
   return (
     <header 
@@ -53,7 +53,7 @@ export default function Header() {
               <div className="absolute inset-0 rounded-full ring-2 ring-slate-400/30 ring-offset-2 ring-offset-slate-900 transition-all duration-300 group-hover:ring-slate-400/50">
                 <Image 
                   src={me} 
-                  alt="Khanzadi Wazir Ali" 
+                  alt="Zeenat Somroo" 
                   className="rounded-full object-cover"
                   fill
                   sizes="(max-width: 640px) 40px, 48px"

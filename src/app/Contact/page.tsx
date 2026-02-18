@@ -142,7 +142,7 @@ export default function Contact() {
                       href="mailto:khanzadiwazirali9@gmail.com"
                       className="text-xs sm:text-sm md:text-base text-slate-800 hover:text-sky-600 transition-colors duration-200"
                     >
-                      khanzadiwazirali9@gmail.com
+                      zeenatsomroo29@gmail.com
                     </a>
                   </div>
                 </div>
@@ -162,21 +162,21 @@ export default function Contact() {
                 <h3 className="text-sm sm:text-base md:text-lg font-semibold text-slate-800 mb-2 sm:mb-3 md:mb-4">Connect with Me</h3>
                 <div className="flex space-x-2 sm:space-x-3 md:space-x-4">
                   <a
-                    href="https://www.linkedin.com/in/khanzadi-wazir-ali-7a97832b6/"
+                    href="https://www.linkedin.com/in/zeenat-somroo/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BFQnSkvmqRHubsrLzSiK6%2Fw%3D%3D"
                     className="p-2 sm:p-2.5 md:p-3 bg-slate-100 rounded-lg hover:bg-sky-100 transition-colors duration-200"
                     target="_blank" rel="noopener noreferrer"
                   >
                     <FaLinkedin className="text-slate-700 w-4 h-4 sm:w-5 sm:h-5 md:text-lg" />
                   </a>
                   <a
-                    href="https://github.com/khanzadigithubid/"
+                    href="https://github.com/Zeenat-Somroo911"
                     className="p-2 sm:p-2.5 md:p-3 bg-slate-100 rounded-lg hover:bg-sky-100 transition-colors duration-200"
                     target="_blank" rel="noopener noreferrer"
                   >
                     <FaGithub className="text-slate-700 w-4 h-4 sm:w-5 sm:h-5 md:text-lg" />
                   </a>
                   <a
-                    href="https://x.com/Khanzadi0099"
+                    href="https://x.com/ZSomroo999"
                     className="p-2 sm:p-2.5 md:p-3 bg-slate-100 rounded-lg hover:bg-sky-100 transition-colors duration-200"
                     target="_blank" rel="noopener noreferrer"
                   >
