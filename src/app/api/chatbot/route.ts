@@ -81,7 +81,7 @@ const faq: Record<string, string> = {
     <div class="pl-4 space-y-2">
       <div>
         <p class="text-sm sm:text-base font-medium">Professional Email:</p>
-        <a href='mailto:zeenatsomroo29@gmail.com' class='text-blue-600 hover:underline text-sm sm:text-base block'>khanzadiwazirali9@gmail.com</a>
+        <a href='mailto:zeenatsomroo29@gmail.com' class='text-blue-600 hover:underline text-sm sm:text-base block'>zeenatsomroo29@gmail.com</a>
       </div>
       <div>
         <p class="text-sm sm:text-base font-medium">Portfolio Website:</p>
@@ -89,7 +89,7 @@ const faq: Record<string, string> = {
       </div>
       <div>
         <p class="text-sm sm:text-base font-medium">LinkedIn Profile:</p>
-        <a href='https://www.linkedin.com/in/zeenat-somroo/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BFQnSkvmqRHubsrLzSiK6%2Fw%3D%3D' target='_blank' rel='noopener noreferrer' class='text-blue-600 hover:underline text-sm sm:text-base block'>linkedin.com/in/khanzadiwazirali</a>
+        <a href='https://www.linkedin.com/in/zeenat-somroo/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BFQnSkvmqRHubsrLzSiK6%2Fw%3D%3D' target='_blank' rel='noopener noreferrer' class='text-blue-600 hover:underline text-sm sm:text-base block'>https://www.linkedin.com/in/zeenat-somroo/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BFQnSkvmqRHubsrLzSiK6%2Fw%3D%3D</a>
       </div>
     </div>
     <p class="text-sm sm:text-base mt-2">Feel free to reach out for collaboration opportunities or professional inquiries.</p>
@@ -126,7 +126,7 @@ const faq: Record<string, string> = {
   "linkedin": `<div class="space-y-2">
     <p class="text-sm sm:text-base">🔗 Connect with Zeenat on LinkedIn:</p>
     <div class="pl-4 space-y-2">
-      <a href='https://www.linkedin.com/in/zeenat-somroo/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B62NkQxj0TUKHOQ9lIuIKmA%3D%3D' target='_blank' rel='noopener noreferrer' class='text-blue-600 hover:underline text-sm sm:text-base block'>linkedin.com/in/khanzadiwazirali</a>
+      <a href='https://www.linkedin.com/in/zeenat-somroo/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B62NkQxj0TUKHOQ9lIuIKmA%3D%3D' target='_blank' rel='noopener noreferrer' class='text-blue-600 hover:underline text-sm sm:text-base block'>https://www.linkedin.com/in/zeenat-somroo/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BFQnSkvmqRHubsrLzSiK6%2Fw%3D%3D</a>
       <ul class="list-disc pl-4 text-sm sm:text-base">
         <li>Professional experience</li>
         <li>Skills endorsements</li>
@@ -152,7 +152,7 @@ const faq: Record<string, string> = {
   "help": `<div class="space-y-2">
     <p class="text-sm sm:text-base">🤖 Here's how I can help you:</p>
     <ul class="list-disc pl-4 text-sm sm:text-base">
-      <li>Learn about Khanzadi's professional journey</li>
+      <li>Learn about zeenat's professional journey</li>
       <li>Explore her technical expertise and skills</li>
       <li>View her project portfolio and achievements</li>
       <li>Get contact information and social links</li>
