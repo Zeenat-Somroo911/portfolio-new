@@ -85,11 +85,11 @@ const faq: Record<string, string> = {
       </div>
       <div>
         <p class="text-sm sm:text-base font-medium">Portfolio Website:</p>
-        <a href='https://bm-nextjs-portfolio.vercel.app' target='_blank' rel='noopener noreferrer' class='text-blue-600 hover:underline text-sm sm:text-base block'>https://bm-nextjs-portfolio.vercel.app</a>
+        <a href='' target='_blank' rel='noopener noreferrer' class='text-blue-600 hover:underline text-sm sm:text-base block'></a>
       </div>
       <div>
         <p class="text-sm sm:text-base font-medium">LinkedIn Profile:</p>
-        <a href='https://linkedin.com/in/khanzadiwazirali' target='_blank' rel='noopener noreferrer' class='text-blue-600 hover:underline text-sm sm:text-base block'>linkedin.com/in/khanzadiwazirali</a>
+        <a href='https://www.linkedin.com/in/zeenat-somroo/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BFQnSkvmqRHubsrLzSiK6%2Fw%3D%3D' target='_blank' rel='noopener noreferrer' class='text-blue-600 hover:underline text-sm sm:text-base block'>linkedin.com/in/khanzadiwazirali</a>
       </div>
     </div>
     <p class="text-sm sm:text-base mt-2">Feel free to reach out for collaboration opportunities or professional inquiries.</p>
